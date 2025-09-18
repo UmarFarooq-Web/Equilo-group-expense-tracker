@@ -10,7 +10,7 @@ export default function TestimonialSection(){
         {pic:pic2 , review:"I love the receipt scanning feature! It saves so much time and eliminates the hassle of manual entry." , name:"- Mark, Roommate"},
         {pic:pic3 , review:"Splitr made splitting bills on our group trip a breeze. No more complicated spreadsheets or IOUs!" , name:"- Emily, Traveler"}
     ]
-    return(<section className="dark:text-white dark:bg-Pblack py-[100px] flex flex-col justify-center items-center px-3 md:px-7" >
+    return(<section id='testimonials' className="dark:text-white dark:bg-Pblack py-[100px] flex flex-col justify-center items-center px-3 md:px-7" >
             <h1 className=" text-4xl md:text-5xl font-bold">What our users are saying</h1>
             <div className="flex flex-col md:flex-row mt-10 md:mt-20 gap-10" >
                 {data.map(e=><div className="flex w-full md:w-1/3 flex-col rounded-2xl dark:bg-Pgray-500 p-5 gap-2" >

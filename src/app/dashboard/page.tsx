@@ -7,22 +7,22 @@ export default function Deshboard(){
         <div>
             <Navbar/>
             <div className="px-2 py-7  md:p-10 flex gap-6 flex-col md:flex-row" >
-                <div className="min-w-1/4">
-                    <div className="grid grid-cols-2 gap-3.5">
-                        <div className="px-4 py-2.5 border border-gray-500 rounded-xl dark:bg-Pgray-400 min-w-[170px]">
+                <div className="md:min-w-[370px]">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+                        <div className="px-4 py-2.5 border border-gray-500 rounded-xl dark:bg-Pgray-400 min-w-[50px] sm:min-w-[170px]">
                             <div>You owe</div>
                             <div className="font-semibold text-[27px] text-red-700">$102.50</div>
                         </div>
 
-                        <div className="px-4 py-2.5 border border-gray-500 rounded-xl dark:bg-Pgray-400 min-w-[170px]">
+                        <div className="px-4 py-2.5 border border-gray-500 rounded-xl dark:bg-Pgray-400 min-w-[50px] sm:min-w-[170px]">
                             <div>You're owed</div>
                             <div className="font-semibold text-[27px] text-green-700">$102.50</div>
                         </div>
-                        <div className="px-4 py-2.5 border border-gray-500 rounded-xl dark:bg-Pgray-400 min-w-[170px]">
+                        <div className="px-4 py-2.5 border border-gray-500 rounded-xl dark:bg-Pgray-400 min-w-[50px] sm:min-w-[170px]">
                             <div>Net balance</div>
                             <div className="font-semibold text-[27px] ">$102.50</div>
                         </div>
-                        <div className="px-4 py-2.5 border border-gray-500 rounded-xl dark:bg-Pgray-400 min-w-[170px]">
+                        <div className="px-4 py-2.5 border border-gray-500 rounded-xl dark:bg-Pgray-400 min-w-[50px] sm:min-w-[170px]">
                             <div>This month</div>
                             <div className="font-semibold text-[27px]">$102.50</div>
                         </div>

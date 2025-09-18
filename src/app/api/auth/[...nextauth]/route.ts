@@ -1,7 +1,13 @@
 import NextAuth, { NextAuthOptions } from "next-auth"
 import GoogleProvider from "next-auth/providers/google"
+import clientPromise from "@/lib/MongoDbAdapter"
+import { MongoDBAdapter } from "@auth/mongodb-adapter"
 
 export const authOptions: NextAuthOptions = {
+  adapter: MongoDBAdapter(clientPromise),
+  session: {
+    strategy: "jwt", // keep JWT-based sessions (most common for SPAs)
+  },
   providers: [
    GoogleProvider({
       clientId: process.env.GOOGLE_ID!,

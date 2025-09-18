@@ -8,7 +8,7 @@ export default function WorkSection(){
         {icon:<CirclePoundSterling size={35} /> , heading:"3. Settle up" , des:"Settle balances with a few taps. We support various payment methods for seamless transactions."}
     ]
     return(
-        <section className="dark:text-white dark:bg-Pblack py-[100px] flex flex-col justify-center items-center px-3 md:px-7" >
+        <section id="work" className="dark:text-white dark:bg-Pblack py-[100px] flex flex-col justify-center items-center px-3 md:px-7" >
             <h1 className=" text-4xl md:text-5xl font-bold">How it works</h1>
             <p className="dark:text-Pgray-300" >Three simple steps to split expenses.</p>
             <div className="flex flex-col md:flex-row mt-10 md:mt-20 gap-10" >
